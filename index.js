@@ -19,7 +19,6 @@ try {
     default:
       throw Error(`Unknown stage ${stage}!`);
   }
-  // TODO: Do we need this?
   core.exportVariable('FOOJI_DOMAIN', domain);
   console.log(`FOOJI_STAGE=${stage}, FOOJI_ENV=${env}, FOOJI_DOMAIN=${domain}`);
 } catch (error) {
