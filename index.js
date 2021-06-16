@@ -4,6 +4,7 @@ try {
   const [stage, env] = branch.replace('refs/heads/', '').split('-');
   core.exportVariable('FOOJI_STAGE', stage);
   core.exportVariable('FOOJI_ENV', env);
+  core.exportVariable('FOOJI_PROFILE', `${env}-${stage}`);
   let domain
   switch (stage) {
     case 'dev':
