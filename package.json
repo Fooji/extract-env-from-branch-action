@@ -1,0 +1,22 @@
+{
+  "name": "extract-env-from-branch-action",
+  "version": "0.0.1",
+  "description": "A GitHub action to extract the env from a branch, when convention is 'stage-env'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fooji/extract-env-from-branch-action.git"
+  },
+  "author": "William Coates",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Foojiextract-env-from-branch-action/issues"
+  },
+  "homepage": "https://github.com/Fooji/extract-env-from-branch-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4"
+  }
+}

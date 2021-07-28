@@ -1,0 +1,9 @@
+name: Extract env from branch
+description: sets the FOOJI_ENV and FOOJI_DOMAIN environment variables, based on the branch
+inputs:
+  branchRef:
+    description: Pass github.ref
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
