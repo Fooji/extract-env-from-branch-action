@@ -1,6 +1,6 @@
 {
   "name": "extract-env-from-branch-action",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A GitHub action to extract the env from a branch, when convention is 'stage-env'",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Fooji/extract-env-from-branch-action#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^1.10.1"
   }
 }
